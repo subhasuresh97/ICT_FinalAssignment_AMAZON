@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="webdriver.Common"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Amazon">
+        <classes>
+            <class name="TS.ValidPincodeTs"></class>
+            <class name="TS.InvalidPincodeTs"></class>
+            <class name="TS.LoginTs"></class>
+            <class name="TS.SearchTs"></class>
+            <class name="TS.SortpriceHightoLowTs"></class>
+            <class name="TS.AmazonPrimeTs"></class>
+            <class name="TS.CustomerServiceTs"></class>
+            <class name="TS.FooterElementsTs"></class>
+            <class name="TS.SearchBookTs"></class>
+            <class name="TS.ProductDetailsTs"></class>
+            <class name="TS.FilterTs"></class>
+
+        </classes>
+
+
+    </test>
+</suite>
